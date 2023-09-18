@@ -1,0 +1,19 @@
+{
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "employeeId",
+      "AttributeType": "S"
+    }
+  ],
+  "TableName": "dev-developerDetails",
+  "KeySchema": [
+    {
+      "AttributeName": "employeeId",
+      "KeyType": "HASH"
+    }
+  ],
+  "ProvisionedThroughput": {
+    "ReadCapacityUnits": 10,
+    "WriteCapacityUnits": 10
+  }
+}
