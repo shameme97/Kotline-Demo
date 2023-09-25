@@ -30,8 +30,8 @@ dependencies {
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
 	implementation("software.amazon.awssdk:dynamodb-enhanced:2.20.68")
-
-
+	implementation("io.github.microutils:kotlin-logging-jvm:3.0.5")
+	implementation("ch.qos.logback:logback-core:1.4.7")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
 	compileOnly("org.projectlombok:lombok")
