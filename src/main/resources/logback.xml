@@ -4,8 +4,8 @@
     <property resource="application.properties" />
     <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
 
-    <springProperty scope="context" name="APP_NAME" source="spring.application.name" defaultValue="kotlin"/>
-    <springProperty scope="context" name="LOG_PATH" source="logging.path" defaultValue="logs"/>
+    <property scope="context" name="APP_NAME" source="spring.application.name" value="kotlin-demo"/>
+    <property scope="context" name="LOG_PATH" source="logging.path" value="logs"/>
 
     <property name="LOG_PATTERN"
               value="%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} | %clr(${LOG_LEVEL_PATTERN:-%5p}) | %clr(${PID:- }){magenta} | %clr([%15.15t]){faint} | %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx} [::END::]%n"/>
@@ -56,19 +56,18 @@
         </encoder>
     </appender>
 
-    <springProfile name="dev">
+
         <root name="info" level="INFO">
             <appender-ref ref="STDOUT"/>
         </root>
-    </springProfile>
 
-    <springProfile name="!dev">
+
         <root level="ERROR">
             <appender-ref ref="ERROR-FILE"/>
         </root>
         <root level="INFO">
             <appender-ref ref="FILE"/>
         </root>
-    </springProfile>
+
 
 </configuration>
