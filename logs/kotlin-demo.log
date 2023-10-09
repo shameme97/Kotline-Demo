@@ -1,44 +1,940 @@
-[2m2023-10-08 14:15:01.405[0;39m | [32m INFO[0;39m | [35m76815[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 76815 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+[2m2023-10-09 11:41:14.199[0;39m | [32m INFO[0;39m | [35m22718[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 22718 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
  [::END::]
-[2m2023-10-08 14:15:01.407[0;39m | [32m INFO[0;39m | [35m76815[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+[2m2023-10-09 11:41:14.202[0;39m | [32m INFO[0;39m | [35m22718[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
  [::END::]
-[2m2023-10-08 14:15:01.838[0;39m | [32m INFO[0;39m | [35m76815[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2m2023-10-09 11:41:15.543[0;39m | [32m INFO[0;39m | [35m22718[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
  [::END::]
-[2m2023-10-08 14:15:01.850[0;39m | [32m INFO[0;39m | [35m76815[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[2m2023-10-09 11:41:15.576[0;39m | [32m INFO[0;39m | [35m22718[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
  [::END::]
-[2m2023-10-08 14:15:01.962[0;39m | [32m INFO[0;39m | [35m76815[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2023-10-09 11:41:15.860[0;39m | [32m INFO[0;39m | [35m22718[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
  [::END::]
-[2m2023-10-08 14:15:01.969[0;39m | [32m INFO[0;39m | [35m76815[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2023-10-09 11:41:15.873[0;39m | [32m INFO[0;39m | [35m22718[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
  [::END::]
-[2m2023-10-08 14:15:01.970[0;39m | [32m INFO[0;39m | [35m76815[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2m2023-10-09 11:41:15.874[0;39m | [32m INFO[0;39m | [35m22718[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
  [::END::]
-[2m2023-10-08 14:15:02.014[0;39m | [32m INFO[0;39m | [35m76815[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2023-10-09 11:41:15.982[0;39m | [32m INFO[0;39m | [35m22718[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
  [::END::]
-[2m2023-10-08 14:15:02.015[0;39m | [32m INFO[0;39m | [35m76815[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 583 ms
+[2m2023-10-09 11:41:15.983[0;39m | [32m INFO[0;39m | [35m22718[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1725 ms
  [::END::]
-[2m2023-10-08 14:15:02.497[0;39m | [32m INFO[0;39m | [35m76815[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2023-10-09 11:41:17.111[0;39m | [32m INFO[0;39m | [35m22718[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
  [::END::]
-[2m2023-10-08 14:15:02.503[0;39m | [32m INFO[0;39m | [35m76815[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.262 seconds (process running for 1.598)
+[2m2023-10-09 11:41:17.123[0;39m | [32m INFO[0;39m | [35m22718[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 3.151 seconds (process running for 3.681)
  [::END::]
-[2m2023-10-08 14:15:28.401[0;39m | [32m INFO[0;39m | [35m77040[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 77040 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+[2m2023-10-09 11:41:27.541[0;39m | [32m INFO[0;39m | [35m22927[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 22927 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
  [::END::]
-[2m2023-10-08 14:15:28.402[0;39m | [32m INFO[0;39m | [35m77040[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+[2m2023-10-09 11:41:27.548[0;39m | [32m INFO[0;39m | [35m22927[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
  [::END::]
-[2m2023-10-08 14:15:28.820[0;39m | [32m INFO[0;39m | [35m77040[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2m2023-10-09 11:41:29.354[0;39m | [32m INFO[0;39m | [35m22927[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
  [::END::]
-[2m2023-10-08 14:15:28.832[0;39m | [32m INFO[0;39m | [35m77040[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[2m2023-10-09 11:41:29.394[0;39m | [32m INFO[0;39m | [35m22927[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
  [::END::]
-[2m2023-10-08 14:15:28.944[0;39m | [32m INFO[0;39m | [35m77040[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2023-10-09 11:41:29.747[0;39m | [32m INFO[0;39m | [35m22927[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
  [::END::]
-[2m2023-10-08 14:15:28.950[0;39m | [32m INFO[0;39m | [35m77040[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2023-10-09 11:41:29.762[0;39m | [32m INFO[0;39m | [35m22927[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
  [::END::]
-[2m2023-10-08 14:15:28.951[0;39m | [32m INFO[0;39m | [35m77040[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2m2023-10-09 11:41:29.762[0;39m | [32m INFO[0;39m | [35m22927[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
  [::END::]
-[2m2023-10-08 14:15:28.997[0;39m | [32m INFO[0;39m | [35m77040[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2023-10-09 11:41:29.888[0;39m | [32m INFO[0;39m | [35m22927[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
  [::END::]
-[2m2023-10-08 14:15:28.997[0;39m | [32m INFO[0;39m | [35m77040[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 569 ms
+[2m2023-10-09 11:41:29.890[0;39m | [32m INFO[0;39m | [35m22927[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 2206 ms
  [::END::]
-[2m2023-10-08 14:15:29.481[0;39m | [32m INFO[0;39m | [35m77040[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2023-10-09 11:41:31.202[0;39m | [32m INFO[0;39m | [35m22927[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
  [::END::]
-[2m2023-10-08 14:15:29.486[0;39m | [32m INFO[0;39m | [35m77040[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.25 seconds (process running for 1.594)
+[2m2023-10-09 11:41:31.214[0;39m | [32m INFO[0;39m | [35m22927[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 4.502 seconds (process running for 6.801)
+ [::END::]
+[2m2023-10-09 11:46:31.732[0;39m | [32m INFO[0;39m | [35m23639[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 23639 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 11:46:31.733[0;39m | [32m INFO[0;39m | [35m23639[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 11:46:32.400[0;39m | [32m INFO[0;39m | [35m23639[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 11:46:32.426[0;39m | [32m INFO[0;39m | [35m23639[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 11:46:32.650[0;39m | [32m INFO[0;39m | [35m23639[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 11:46:32.659[0;39m | [32m INFO[0;39m | [35m23639[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 11:46:32.660[0;39m | [32m INFO[0;39m | [35m23639[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 11:46:32.751[0;39m | [32m INFO[0;39m | [35m23639[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 11:46:32.752[0;39m | [32m INFO[0;39m | [35m23639[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 990 ms
+ [::END::]
+[2m2023-10-09 11:46:33.786[0;39m | [32m INFO[0;39m | [35m23639[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 11:46:33.797[0;39m | [32m INFO[0;39m | [35m23639[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 2.256 seconds (process running for 2.685)
+ [::END::]
+[2m2023-10-09 11:46:51.532[0;39m | [32m INFO[0;39m | [35m23639[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 11:46:51.532[0;39m | [32m INFO[0;39m | [35m23639[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 11:46:51.533[0;39m | [32m INFO[0;39m | [35m23639[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+ [::END::]
+[2m2023-10-09 11:46:51.600[0;39m | [32m INFO[0;39m | [35m23639[0;39m | [2m[nio-8080-exec-1][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m Table name: -developerDetails
+ [::END::]
+[2m2023-10-09 11:53:28.955[0;39m | [32m INFO[0;39m | [35m24339[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 24339 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 11:53:28.957[0;39m | [32m INFO[0;39m | [35m24339[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 11:53:30.056[0;39m | [32m INFO[0;39m | [35m24339[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 11:53:30.083[0;39m | [32m INFO[0;39m | [35m24339[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 11:53:30.341[0;39m | [32m INFO[0;39m | [35m24339[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 11:53:30.351[0;39m | [32m INFO[0;39m | [35m24339[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 11:53:30.352[0;39m | [32m INFO[0;39m | [35m24339[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 11:53:30.444[0;39m | [32m INFO[0;39m | [35m24339[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 11:53:30.444[0;39m | [32m INFO[0;39m | [35m24339[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1415 ms
+ [::END::]
+[2m2023-10-09 11:53:31.513[0;39m | [32m INFO[0;39m | [35m24339[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 11:53:31.524[0;39m | [32m INFO[0;39m | [35m24339[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 3.019 seconds (process running for 4.226)
+ [::END::]
+[2m2023-10-09 11:53:37.909[0;39m | [32m INFO[0;39m | [35m24339[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 11:53:37.910[0;39m | [32m INFO[0;39m | [35m24339[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 11:53:37.911[0;39m | [32m INFO[0;39m | [35m24339[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+ [::END::]
+[2m2023-10-09 11:53:38.062[0;39m | [32m INFO[0;39m | [35m24339[0;39m | [2m[nio-8080-exec-1][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m Table name: dev
+ [::END::]
+[2m2023-10-09 11:54:29.329[0;39m | [32m INFO[0;39m | [35m24635[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 24635 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 11:54:29.330[0;39m | [32m INFO[0;39m | [35m24635[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 11:54:29.759[0;39m | [32m INFO[0;39m | [35m24635[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 11:54:29.777[0;39m | [32m INFO[0;39m | [35m24635[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 11:54:29.896[0;39m | [32m INFO[0;39m | [35m24635[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 11:54:29.902[0;39m | [32m INFO[0;39m | [35m24635[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 11:54:29.903[0;39m | [32m INFO[0;39m | [35m24635[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 11:54:29.948[0;39m | [32m INFO[0;39m | [35m24635[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 11:54:29.949[0;39m | [32m INFO[0;39m | [35m24635[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 593 ms
+ [::END::]
+[2m2023-10-09 11:54:30.480[0;39m | [32m INFO[0;39m | [35m24635[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 11:54:30.485[0;39m | [32m INFO[0;39m | [35m24635[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.328 seconds (process running for 1.804)
+ [::END::]
+[2m2023-10-09 11:54:33.980[0;39m | [32m INFO[0;39m | [35m24635[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 11:54:33.981[0;39m | [32m INFO[0;39m | [35m24635[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 11:54:33.981[0;39m | [32m INFO[0;39m | [35m24635[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+ [::END::]
+[2m2023-10-09 11:54:34.063[0;39m | [32m INFO[0;39m | [35m24635[0;39m | [2m[nio-8080-exec-1][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m Table name: dev
+ [::END::]
+[2m2023-10-09 12:05:00.872[0;39m | [32m INFO[0;39m | [35m26492[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 26492 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 12:05:00.874[0;39m | [32m INFO[0;39m | [35m26492[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 12:05:01.325[0;39m | [32m INFO[0;39m | [35m26492[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 12:05:01.342[0;39m | [32m INFO[0;39m | [35m26492[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 12:05:01.463[0;39m | [32m INFO[0;39m | [35m26492[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 12:05:01.469[0;39m | [32m INFO[0;39m | [35m26492[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 12:05:01.469[0;39m | [32m INFO[0;39m | [35m26492[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 12:05:01.514[0;39m | [32m INFO[0;39m | [35m26492[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 12:05:01.514[0;39m | [32m INFO[0;39m | [35m26492[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 613 ms
+ [::END::]
+[2m2023-10-09 12:05:02.036[0;39m | [32m INFO[0;39m | [35m26492[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 12:05:02.041[0;39m | [32m INFO[0;39m | [35m26492[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.355 seconds (process running for 1.846)
+ [::END::]
+[2m2023-10-09 12:05:43.610[0;39m | [32m INFO[0;39m | [35m26492[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 12:05:43.610[0;39m | [32m INFO[0;39m | [35m26492[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 12:05:43.611[0;39m | [32m INFO[0;39m | [35m26492[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+ [::END::]
+[2m2023-10-09 12:05:43.679[0;39m | [32m INFO[0;39m | [35m26492[0;39m | [2m[nio-8080-exec-2][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m Table name: dev
+ [::END::]
+[2m2023-10-09 12:05:59.427[0;39m | [32m INFO[0;39m | [35m26790[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 26790 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 12:05:59.428[0;39m | [32m INFO[0;39m | [35m26790[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 12:05:59.873[0;39m | [32m INFO[0;39m | [35m26790[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 12:05:59.886[0;39m | [32m INFO[0;39m | [35m26790[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 12:06:00.010[0;39m | [32m INFO[0;39m | [35m26790[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 12:06:00.015[0;39m | [32m INFO[0;39m | [35m26790[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 12:06:00.016[0;39m | [32m INFO[0;39m | [35m26790[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 12:06:00.068[0;39m | [32m INFO[0;39m | [35m26790[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 12:06:00.068[0;39m | [32m INFO[0;39m | [35m26790[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 616 ms
+ [::END::]
+[2m2023-10-09 12:06:00.639[0;39m | [32m INFO[0;39m | [35m26790[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 12:06:00.646[0;39m | [32m INFO[0;39m | [35m26790[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.389 seconds (process running for 1.872)
+ [::END::]
+[2m2023-10-09 12:06:17.561[0;39m | [32m INFO[0;39m | [35m26790[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 12:06:17.561[0;39m | [32m INFO[0;39m | [35m26790[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 12:06:17.562[0;39m | [32m INFO[0;39m | [35m26790[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+ [::END::]
+[2m2023-10-09 12:06:17.639[0;39m | [32m INFO[0;39m | [35m26790[0;39m | [2m[nio-8080-exec-2][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m Table name: dev
+ [::END::]
+[2m2023-10-09 12:23:03.352[0;39m | [32m INFO[0;39m | [35m28262[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 28262 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 12:23:03.353[0;39m | [32m INFO[0;39m | [35m28262[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 12:23:03.796[0;39m | [32m INFO[0;39m | [35m28262[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 12:23:03.809[0;39m | [32m INFO[0;39m | [35m28262[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 12:23:03.933[0;39m | [32m INFO[0;39m | [35m28262[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 12:23:03.939[0;39m | [32m INFO[0;39m | [35m28262[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 12:23:03.939[0;39m | [32m INFO[0;39m | [35m28262[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 12:23:03.986[0;39m | [32m INFO[0;39m | [35m28262[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 12:23:03.987[0;39m | [32m INFO[0;39m | [35m28262[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 608 ms
+ [::END::]
+[2m2023-10-09 12:23:04.542[0;39m | [32m INFO[0;39m | [35m28262[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 12:23:04.547[0;39m | [32m INFO[0;39m | [35m28262[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.37 seconds (process running for 1.905)
+ [::END::]
+[2m2023-10-09 12:23:22.717[0;39m | [32m INFO[0;39m | [35m28262[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 12:23:22.718[0;39m | [32m INFO[0;39m | [35m28262[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 12:23:22.719[0;39m | [32m INFO[0;39m | [35m28262[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+ [::END::]
+[2m2023-10-09 12:23:22.876[0;39m | [32m INFO[0;39m | [35m28262[0;39m | [2m[nio-8080-exec-2][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m Table name: null-developerDetails
+ [::END::]
+[2m2023-10-09 12:25:26.249[0;39m | [32m INFO[0;39m | [35m28624[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 28624 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 12:25:26.250[0;39m | [32m INFO[0;39m | [35m28624[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 12:25:26.701[0;39m | [32m INFO[0;39m | [35m28624[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 12:25:26.720[0;39m | [32m INFO[0;39m | [35m28624[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 12:25:26.843[0;39m | [32m INFO[0;39m | [35m28624[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 12:25:26.849[0;39m | [32m INFO[0;39m | [35m28624[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 12:25:26.849[0;39m | [32m INFO[0;39m | [35m28624[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 12:25:26.894[0;39m | [32m INFO[0;39m | [35m28624[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 12:25:26.895[0;39m | [32m INFO[0;39m | [35m28624[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 620 ms
+ [::END::]
+[2m2023-10-09 12:25:27.401[0;39m | [32m INFO[0;39m | [35m28624[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 12:25:27.406[0;39m | [32m INFO[0;39m | [35m28624[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.325 seconds (process running for 1.69)
+ [::END::]
+[2m2023-10-09 12:25:34.604[0;39m | [32m INFO[0;39m | [35m28624[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 12:25:34.605[0;39m | [32m INFO[0;39m | [35m28624[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 12:25:34.605[0;39m | [32m INFO[0;39m | [35m28624[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+ [::END::]
+[2m2023-10-09 12:25:34.669[0;39m | [32m INFO[0;39m | [35m28624[0;39m | [2m[nio-8080-exec-2][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m Table name: dev
+ [::END::]
+[2m2023-10-09 12:27:16.767[0;39m | [32m INFO[0;39m | [35m28962[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 28962 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 12:27:16.768[0;39m | [32m INFO[0;39m | [35m28962[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 12:27:17.221[0;39m | [32m INFO[0;39m | [35m28962[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 12:27:17.234[0;39m | [32m INFO[0;39m | [35m28962[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 12:27:17.345[0;39m | [32m INFO[0;39m | [35m28962[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 12:27:17.350[0;39m | [32m INFO[0;39m | [35m28962[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 12:27:17.350[0;39m | [32m INFO[0;39m | [35m28962[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 12:27:17.398[0;39m | [32m INFO[0;39m | [35m28962[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 12:27:17.398[0;39m | [32m INFO[0;39m | [35m28962[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 602 ms
+ [::END::]
+[2m2023-10-09 12:27:17.901[0;39m | [32m INFO[0;39m | [35m28962[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 12:27:17.906[0;39m | [32m INFO[0;39m | [35m28962[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.311 seconds (process running for 1.712)
+ [::END::]
+[2m2023-10-09 12:27:21.550[0;39m | [32m INFO[0;39m | [35m28962[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 12:27:21.550[0;39m | [32m INFO[0;39m | [35m28962[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 12:27:21.550[0;39m | [32m INFO[0;39m | [35m28962[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+ [::END::]
+[2m2023-10-09 12:27:21.626[0;39m | [32m INFO[0;39m | [35m28962[0;39m | [2m[nio-8080-exec-2][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m Table name: dev-developerDetails
+ [::END::]
+[2m2023-10-09 12:31:26.158[0;39m | [32m INFO[0;39m | [35m30124[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 30124 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 12:31:26.161[0;39m | [32m INFO[0;39m | [35m30124[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 12:31:27.293[0;39m | [32m INFO[0;39m | [35m30124[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 12:31:27.317[0;39m | [32m INFO[0;39m | [35m30124[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 12:31:27.537[0;39m | [32m INFO[0;39m | [35m30124[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 12:31:27.547[0;39m | [32m INFO[0;39m | [35m30124[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 12:31:27.547[0;39m | [32m INFO[0;39m | [35m30124[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 12:31:27.631[0;39m | [32m INFO[0;39m | [35m30124[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 12:31:27.631[0;39m | [32m INFO[0;39m | [35m30124[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1400 ms
+ [::END::]
+[2m2023-10-09 12:31:28.618[0;39m | [32m INFO[0;39m | [35m30124[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 12:31:28.627[0;39m | [32m INFO[0;39m | [35m30124[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 3.06 seconds (process running for 4.268)
+ [::END::]
+[2m2023-10-09 12:31:34.325[0;39m | [32m INFO[0;39m | [35m30124[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 12:31:34.326[0;39m | [32m INFO[0;39m | [35m30124[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 12:31:34.326[0;39m | [32m INFO[0;39m | [35m30124[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+ [::END::]
+[2m2023-10-09 12:31:34.423[0;39m | [32m INFO[0;39m | [35m30124[0;39m | [2m[nio-8080-exec-2][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m Table name: dev
+ [::END::]
+[2m2023-10-09 12:32:13.289[0;39m | [32m INFO[0;39m | [35m30432[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 30432 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 12:32:13.290[0;39m | [32m INFO[0;39m | [35m30432[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 12:32:13.988[0;39m | [32m INFO[0;39m | [35m30432[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 12:32:14.013[0;39m | [32m INFO[0;39m | [35m30432[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 12:32:14.269[0;39m | [32m INFO[0;39m | [35m30432[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 12:32:14.279[0;39m | [32m INFO[0;39m | [35m30432[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 12:32:14.279[0;39m | [32m INFO[0;39m | [35m30432[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 12:32:14.369[0;39m | [32m INFO[0;39m | [35m30432[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 12:32:14.369[0;39m | [32m INFO[0;39m | [35m30432[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1046 ms
+ [::END::]
+[2m2023-10-09 12:32:15.402[0;39m | [32m INFO[0;39m | [35m30432[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 12:32:15.413[0;39m | [32m INFO[0;39m | [35m30432[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 2.323 seconds (process running for 2.749)
+ [::END::]
+[2m2023-10-09 12:32:20.510[0;39m | [32m INFO[0;39m | [35m30432[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 12:32:20.510[0;39m | [32m INFO[0;39m | [35m30432[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 12:32:20.512[0;39m | [32m INFO[0;39m | [35m30432[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+ [::END::]
+[2m2023-10-09 12:32:20.641[0;39m | [32m INFO[0;39m | [35m30432[0;39m | [2m[nio-8080-exec-1][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m Table name: dev
+ [::END::]
+[2m2023-10-09 14:03:28.164[0;39m | [32m INFO[0;39m | [35m49079[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 49079 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 14:03:28.165[0;39m | [32m INFO[0;39m | [35m49079[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 14:03:28.586[0;39m | [32m INFO[0;39m | [35m49079[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 14:03:28.598[0;39m | [32m INFO[0;39m | [35m49079[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 14:03:28.714[0;39m | [32m INFO[0;39m | [35m49079[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 14:03:28.720[0;39m | [32m INFO[0;39m | [35m49079[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 14:03:28.721[0;39m | [32m INFO[0;39m | [35m49079[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 14:03:28.766[0;39m | [32m INFO[0;39m | [35m49079[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 14:03:28.766[0;39m | [32m INFO[0;39m | [35m49079[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 575 ms
+ [::END::]
+[2m2023-10-09 14:03:29.259[0;39m | [32m INFO[0;39m | [35m49079[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 14:03:29.264[0;39m | [32m INFO[0;39m | [35m49079[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.266 seconds (process running for 1.65)
+ [::END::]
+[2m2023-10-09 14:03:39.593[0;39m | [32m INFO[0;39m | [35m49079[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 14:03:39.593[0;39m | [32m INFO[0;39m | [35m49079[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 14:03:39.593[0;39m | [32m INFO[0;39m | [35m49079[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+ [::END::]
+[2m2023-10-09 14:03:39.659[0;39m | [32m INFO[0;39m | [35m49079[0;39m | [2m[nio-8080-exec-2][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m Table name: dev
+ [::END::]
+[2m2023-10-09 14:04:37.497[0;39m | [32m INFO[0;39m | [35m49374[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 49374 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 14:04:37.498[0;39m | [32m INFO[0;39m | [35m49374[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 14:04:37.926[0;39m | [32m INFO[0;39m | [35m49374[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 14:04:37.938[0;39m | [32m INFO[0;39m | [35m49374[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 14:04:38.049[0;39m | [32m INFO[0;39m | [35m49374[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 14:04:38.054[0;39m | [32m INFO[0;39m | [35m49374[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 14:04:38.054[0;39m | [32m INFO[0;39m | [35m49374[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 14:04:38.102[0;39m | [32m INFO[0;39m | [35m49374[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 14:04:38.103[0;39m | [32m INFO[0;39m | [35m49374[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 580 ms
+ [::END::]
+[2m2023-10-09 14:04:38.593[0;39m | [32m INFO[0;39m | [35m49374[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 14:04:38.598[0;39m | [32m INFO[0;39m | [35m49374[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.264 seconds (process running for 1.662)
+ [::END::]
+[2m2023-10-09 14:04:47.110[0;39m | [32m INFO[0;39m | [35m49374[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 14:04:47.110[0;39m | [32m INFO[0;39m | [35m49374[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 14:04:47.111[0;39m | [32m INFO[0;39m | [35m49374[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+ [::END::]
+[2m2023-10-09 14:04:47.197[0;39m | [32m INFO[0;39m | [35m49374[0;39m | [2m[nio-8080-exec-2][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m Table name: dev
+ [::END::]
+[2m2023-10-09 14:05:04.981[0;39m | [32m INFO[0;39m | [35m49599[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 49599 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 14:05:04.983[0;39m | [32m INFO[0;39m | [35m49599[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 14:05:05.399[0;39m | [32m INFO[0;39m | [35m49599[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 14:05:05.419[0;39m | [32m INFO[0;39m | [35m49599[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 14:05:05.530[0;39m | [32m INFO[0;39m | [35m49599[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 14:05:05.535[0;39m | [32m INFO[0;39m | [35m49599[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 14:05:05.535[0;39m | [32m INFO[0;39m | [35m49599[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 14:05:05.584[0;39m | [32m INFO[0;39m | [35m49599[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 14:05:05.584[0;39m | [32m INFO[0;39m | [35m49599[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 575 ms
+ [::END::]
+[2m2023-10-09 14:05:06.068[0;39m | [32m INFO[0;39m | [35m49599[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 14:05:06.073[0;39m | [32m INFO[0;39m | [35m49599[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.263 seconds (process running for 1.703)
+ [::END::]
+[2m2023-10-09 14:05:08.968[0;39m | [32m INFO[0;39m | [35m49599[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 14:05:08.969[0;39m | [32m INFO[0;39m | [35m49599[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 14:05:08.970[0;39m | [32m INFO[0;39m | [35m49599[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+ [::END::]
+[2m2023-10-09 14:05:09.041[0;39m | [32m INFO[0;39m | [35m49599[0;39m | [2m[nio-8080-exec-2][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m Table name: dev
+ [::END::]
+[2m2023-10-09 14:05:25.363[0;39m | [32m INFO[0;39m | [35m49839[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 49839 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 14:05:25.364[0;39m | [32m INFO[0;39m | [35m49839[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 14:05:25.776[0;39m | [32m INFO[0;39m | [35m49839[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 14:05:25.788[0;39m | [32m INFO[0;39m | [35m49839[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 14:05:25.906[0;39m | [32m INFO[0;39m | [35m49839[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 14:05:25.911[0;39m | [32m INFO[0;39m | [35m49839[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 14:05:25.911[0;39m | [32m INFO[0;39m | [35m49839[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 14:05:25.960[0;39m | [32m INFO[0;39m | [35m49839[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 14:05:25.960[0;39m | [32m INFO[0;39m | [35m49839[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 571 ms
+ [::END::]
+[2m2023-10-09 14:05:26.497[0;39m | [32m INFO[0;39m | [35m49839[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 14:05:26.503[0;39m | [32m INFO[0;39m | [35m49839[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.309 seconds (process running for 1.63)
+ [::END::]
+[2m2023-10-09 14:05:32.888[0;39m | [32m INFO[0;39m | [35m49839[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 14:05:32.888[0;39m | [32m INFO[0;39m | [35m49839[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 14:05:32.889[0;39m | [32m INFO[0;39m | [35m49839[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+ [::END::]
+[2m2023-10-09 14:05:32.967[0;39m | [32m INFO[0;39m | [35m49839[0;39m | [2m[nio-8080-exec-2][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m Table name: dev
+ [::END::]
+[2m2023-10-09 14:06:07.711[0;39m | [32m INFO[0;39m | [35m50080[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 50080 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 14:06:07.712[0;39m | [32m INFO[0;39m | [35m50080[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 14:06:08.133[0;39m | [32m INFO[0;39m | [35m50080[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 14:06:08.153[0;39m | [32m INFO[0;39m | [35m50080[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 14:06:08.264[0;39m | [32m INFO[0;39m | [35m50080[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 14:06:08.269[0;39m | [32m INFO[0;39m | [35m50080[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 14:06:08.269[0;39m | [32m INFO[0;39m | [35m50080[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 14:06:08.319[0;39m | [32m INFO[0;39m | [35m50080[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 14:06:08.319[0;39m | [32m INFO[0;39m | [35m50080[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 582 ms
+ [::END::]
+[2m2023-10-09 14:06:08.817[0;39m | [32m INFO[0;39m | [35m50080[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 14:06:08.823[0;39m | [32m INFO[0;39m | [35m50080[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.28 seconds (process running for 1.654)
+ [::END::]
+[2m2023-10-09 14:06:10.986[0;39m | [32m INFO[0;39m | [35m50080[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 14:06:10.987[0;39m | [32m INFO[0;39m | [35m50080[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 14:06:10.987[0;39m | [32m INFO[0;39m | [35m50080[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+ [::END::]
+[2m2023-10-09 14:06:11.071[0;39m | [32m INFO[0;39m | [35m50080[0;39m | [2m[nio-8080-exec-2][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m Table name: dev
+ [::END::]
+[2m2023-10-09 14:07:51.376[0;39m | [32m INFO[0;39m | [35m50410[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 50410 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 14:07:51.378[0;39m | [32m INFO[0;39m | [35m50410[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 14:07:51.845[0;39m | [32m INFO[0;39m | [35m50410[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 14:07:51.858[0;39m | [32m INFO[0;39m | [35m50410[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 14:07:51.977[0;39m | [32m INFO[0;39m | [35m50410[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 14:07:51.983[0;39m | [32m INFO[0;39m | [35m50410[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 14:07:51.983[0;39m | [32m INFO[0;39m | [35m50410[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 14:07:52.034[0;39m | [32m INFO[0;39m | [35m50410[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 14:07:52.034[0;39m | [32m INFO[0;39m | [35m50410[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 633 ms
+ [::END::]
+[2m2023-10-09 14:07:52.529[0;39m | [32m INFO[0;39m | [35m50410[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 14:07:52.534[0;39m | [32m INFO[0;39m | [35m50410[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.323 seconds (process running for 1.682)
+ [::END::]
+[2m2023-10-09 14:07:54.968[0;39m | [32m INFO[0;39m | [35m50410[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 14:07:54.969[0;39m | [32m INFO[0;39m | [35m50410[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 14:07:54.969[0;39m | [32m INFO[0;39m | [35m50410[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+ [::END::]
+[2m2023-10-09 14:07:55.046[0;39m | [32m INFO[0;39m | [35m50410[0;39m | [2m[nio-8080-exec-2][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m Table name: dev-developerDetails
+ [::END::]
+[2m2023-10-09 14:14:28.980[0;39m | [32m INFO[0;39m | [35m51063[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 51063 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 14:14:28.982[0;39m | [32m INFO[0;39m | [35m51063[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 14:14:29.425[0;39m | [32m INFO[0;39m | [35m51063[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 14:14:29.438[0;39m | [32m INFO[0;39m | [35m51063[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 14:14:29.562[0;39m | [32m INFO[0;39m | [35m51063[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 14:14:29.568[0;39m | [32m INFO[0;39m | [35m51063[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 14:14:29.568[0;39m | [32m INFO[0;39m | [35m51063[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 14:14:29.615[0;39m | [32m INFO[0;39m | [35m51063[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 14:14:29.616[0;39m | [32m INFO[0;39m | [35m51063[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 608 ms
+ [::END::]
+[2m2023-10-09 14:14:30.145[0;39m | [32m INFO[0;39m | [35m51063[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 14:14:30.151[0;39m | [32m INFO[0;39m | [35m51063[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.344 seconds (process running for 1.674)
+ [::END::]
+[2m2023-10-09 14:14:39.521[0;39m | [32m INFO[0;39m | [35m51063[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 14:14:39.521[0;39m | [32m INFO[0;39m | [35m51063[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 14:14:39.522[0;39m | [32m INFO[0;39m | [35m51063[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+ [::END::]
+[2m2023-10-09 14:14:39.542[0;39m | [32m INFO[0;39m | [35m51063[0;39m | [2m[nio-8080-exec-2][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m AbstractDynamoDbEnhancedRepository:: getItemWithPartitionKey:: tableName: dev-developerDetails
+ [::END::]
+[2m2023-10-09 14:14:56.148[0;39m | [32m INFO[0;39m | [35m51063[0;39m | [2m[nio-8080-exec-4][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m AbstractDynamoDbEnhancedRepository:: getItemWithPartitionKey:: tableName: dev-developerDetails
+ [::END::]
+[2m2023-10-09 14:17:18.657[0;39m | [32m INFO[0;39m | [35m51063[0;39m | [2m[nio-8080-exec-8][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m AbstractDynamoDbEnhancedRepository:: getItemWithPartitionKey:: tableName: dev-developerDetails
+ [::END::]
+[2m2023-10-09 14:17:33.314[0;39m | [32m INFO[0;39m | [35m51063[0;39m | [2m[io-8080-exec-10][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m AbstractDynamoDbEnhancedRepository:: getItemWithPartitionKey:: tableName: dev-developerDetails
+ [::END::]
+[2m2023-10-09 15:42:47.907[0;39m | [32m INFO[0;39m | [35m59202[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 59202 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 15:42:47.908[0;39m | [32m INFO[0;39m | [35m59202[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 15:42:48.358[0;39m | [32m INFO[0;39m | [35m59202[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 15:42:48.371[0;39m | [32m INFO[0;39m | [35m59202[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 15:42:48.494[0;39m | [32m INFO[0;39m | [35m59202[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 15:42:48.499[0;39m | [32m INFO[0;39m | [35m59202[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 15:42:48.499[0;39m | [32m INFO[0;39m | [35m59202[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 15:42:48.553[0;39m | [32m INFO[0;39m | [35m59202[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 15:42:48.554[0;39m | [32m INFO[0;39m | [35m59202[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 619 ms
+ [::END::]
+[2m2023-10-09 15:42:49.221[0;39m | [32m INFO[0;39m | [35m59202[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 15:42:49.230[0;39m | [32m INFO[0;39m | [35m59202[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.501 seconds (process running for 1.882)
+ [::END::]
+[2m2023-10-09 15:45:44.653[0;39m | [32m INFO[0;39m | [35m59770[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 59770 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 15:45:44.654[0;39m | [32m INFO[0;39m | [35m59770[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 15:45:45.090[0;39m | [32m INFO[0;39m | [35m59770[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 15:45:45.103[0;39m | [32m INFO[0;39m | [35m59770[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 15:45:45.215[0;39m | [32m INFO[0;39m | [35m59770[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 15:45:45.219[0;39m | [32m INFO[0;39m | [35m59770[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 15:45:45.220[0;39m | [32m INFO[0;39m | [35m59770[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 15:45:45.267[0;39m | [32m INFO[0;39m | [35m59770[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 15:45:45.267[0;39m | [32m INFO[0;39m | [35m59770[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 587 ms
+ [::END::]
+[2m2023-10-09 15:45:45.793[0;39m | [32m INFO[0;39m | [35m59770[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 15:45:45.798[0;39m | [32m INFO[0;39m | [35m59770[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.31 seconds (process running for 1.671)
+ [::END::]
+[2m2023-10-09 15:47:37.042[0;39m | [32m INFO[0;39m | [35m60112[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 60112 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 15:47:37.044[0;39m | [32m INFO[0;39m | [35m60112[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 15:47:37.471[0;39m | [32m INFO[0;39m | [35m60112[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 15:47:37.483[0;39m | [32m INFO[0;39m | [35m60112[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 15:47:37.597[0;39m | [32m INFO[0;39m | [35m60112[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 15:47:37.602[0;39m | [32m INFO[0;39m | [35m60112[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 15:47:37.602[0;39m | [32m INFO[0;39m | [35m60112[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 15:47:37.653[0;39m | [32m INFO[0;39m | [35m60112[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 15:47:37.654[0;39m | [32m INFO[0;39m | [35m60112[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 586 ms
+ [::END::]
+[2m2023-10-09 15:47:38.157[0;39m | [32m INFO[0;39m | [35m60112[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 15:47:38.162[0;39m | [32m INFO[0;39m | [35m60112[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.292 seconds (process running for 1.648)
+ [::END::]
+[2m2023-10-09 15:47:48.085[0;39m | [32m INFO[0;39m | [35m60112[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 15:47:48.085[0;39m | [32m INFO[0;39m | [35m60112[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 15:47:48.086[0;39m | [32m INFO[0;39m | [35m60112[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+ [::END::]
+[2m2023-10-09 15:47:48.152[0;39m | [32m INFO[0;39m | [35m60112[0;39m | [2m[nio-8080-exec-2][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m AbstractDynamoDbEnhancedRepository:: save:: tableName: dev-developerDetails
+ [::END::]
+[2m2023-10-09 15:48:23.960[0;39m | [32m INFO[0;39m | [35m60112[0;39m | [2m[nio-8080-exec-4][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m AbstractDynamoDbEnhancedRepository:: save:: tableName: dev-developerDetails
+ [::END::]
+[2m2023-10-09 15:48:32.338[0;39m | [32m INFO[0;39m | [35m60112[0;39m | [2m[nio-8080-exec-6][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m AbstractDynamoDbEnhancedRepository:: getItemWithPartitionKey:: tableName: dev-developerDetails
+ [::END::]
+[2m2023-10-09 16:01:58.055[0;39m | [32m INFO[0;39m | [35m62237[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 62237 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 16:01:58.056[0;39m | [32m INFO[0;39m | [35m62237[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 16:01:58.487[0;39m | [32m INFO[0;39m | [35m62237[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 16:01:58.499[0;39m | [32m INFO[0;39m | [35m62237[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 16:01:58.621[0;39m | [32m INFO[0;39m | [35m62237[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 16:01:58.626[0;39m | [32m INFO[0;39m | [35m62237[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 16:01:58.626[0;39m | [32m INFO[0;39m | [35m62237[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 16:01:58.670[0;39m | [32m INFO[0;39m | [35m62237[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 16:01:58.670[0;39m | [32m INFO[0;39m | [35m62237[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 590 ms
+ [::END::]
+[2m2023-10-09 16:01:59.175[0;39m | [32m INFO[0;39m | [35m62237[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 16:01:59.180[0;39m | [32m INFO[0;39m | [35m62237[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.296 seconds (process running for 1.659)
+ [::END::]
+[2m2023-10-09 16:02:41.489[0;39m | [32m INFO[0;39m | [35m62237[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 16:02:41.490[0;39m | [32m INFO[0;39m | [35m62237[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 16:02:41.490[0;39m | [32m INFO[0;39m | [35m62237[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+ [::END::]
+[2m2023-10-09 16:02:41.507[0;39m | [32m INFO[0;39m | [35m62237[0;39m | [2m[nio-8080-exec-2][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m AbstractDynamoDbEnhancedRepository:: getItemWithPartitionKey:: tableName: dev-developerDetails
+ [::END::]
+[2m2023-10-09 16:02:41.678[0;39m | [32m INFO[0;39m | [35m62237[0;39m | [2m[nc-response-0-0][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m DeveloperRepository:: removeData:: getData: Developer(employeeId=12)
+ [::END::]
+[2m2023-10-09 16:03:08.068[0;39m | [32m INFO[0;39m | [35m62237[0;39m | [2m[nio-8080-exec-4][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m AbstractDynamoDbEnhancedRepository:: getItemWithPartitionKey:: tableName: dev-developerDetails
+ [::END::]
+[2m2023-10-09 16:03:08.082[0;39m | [32m INFO[0;39m | [35m62237[0;39m | [2m[nc-response-0-2][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m DeveloperRepository:: removeData:: getData: Developer(employeeId=35)
+ [::END::]
+[2m2023-10-09 16:03:25.248[0;39m | [32m INFO[0;39m | [35m62237[0;39m | [2m[nio-8080-exec-6][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m AbstractDynamoDbEnhancedRepository:: getItemWithPartitionKey:: tableName: dev-developerDetails
+ [::END::]
+[2m2023-10-09 16:03:52.523[0;39m | [32m INFO[0;39m | [35m62237[0;39m | [2m[nio-8080-exec-8][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m AbstractDynamoDbEnhancedRepository:: getItemWithPartitionKey:: tableName: dev-developerDetails
+ [::END::]
+[2m2023-10-09 16:06:01.713[0;39m | [32m INFO[0;39m | [35m62753[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 62753 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 16:06:01.714[0;39m | [32m INFO[0;39m | [35m62753[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 16:06:02.156[0;39m | [32m INFO[0;39m | [35m62753[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 16:06:02.168[0;39m | [32m INFO[0;39m | [35m62753[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 16:06:02.285[0;39m | [32m INFO[0;39m | [35m62753[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 16:06:02.290[0;39m | [32m INFO[0;39m | [35m62753[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 16:06:02.290[0;39m | [32m INFO[0;39m | [35m62753[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 16:06:02.344[0;39m | [32m INFO[0;39m | [35m62753[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 16:06:02.345[0;39m | [32m INFO[0;39m | [35m62753[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 605 ms
+ [::END::]
+[2m2023-10-09 16:06:02.860[0;39m | [32m INFO[0;39m | [35m62753[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 16:06:02.865[0;39m | [32m INFO[0;39m | [35m62753[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.311 seconds (process running for 1.638)
+ [::END::]
+[2m2023-10-09 16:06:06.332[0;39m | [32m INFO[0;39m | [35m62753[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 16:06:06.333[0;39m | [32m INFO[0;39m | [35m62753[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 16:06:06.333[0;39m | [32m INFO[0;39m | [35m62753[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+ [::END::]
+[2m2023-10-09 16:06:06.355[0;39m | [32m INFO[0;39m | [35m62753[0;39m | [2m[nio-8080-exec-2][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m AbstractDynamoDbEnhancedRepository:: getItemWithPartitionKey:: tableName: dev-developerDetails
+ [::END::]
+[2m2023-10-09 16:07:34.697[0;39m | [32m INFO[0;39m | [35m63089[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 63089 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 16:07:34.698[0;39m | [32m INFO[0;39m | [35m63089[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 16:07:35.136[0;39m | [32m INFO[0;39m | [35m63089[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 16:07:35.149[0;39m | [32m INFO[0;39m | [35m63089[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 16:07:35.269[0;39m | [32m INFO[0;39m | [35m63089[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 16:07:35.274[0;39m | [32m INFO[0;39m | [35m63089[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 16:07:35.274[0;39m | [32m INFO[0;39m | [35m63089[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 16:07:35.324[0;39m | [32m INFO[0;39m | [35m63089[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 16:07:35.325[0;39m | [32m INFO[0;39m | [35m63089[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 603 ms
+ [::END::]
+[2m2023-10-09 16:07:35.837[0;39m | [32m INFO[0;39m | [35m63089[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 16:07:35.842[0;39m | [32m INFO[0;39m | [35m63089[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.309 seconds (process running for 1.665)
+ [::END::]
+[2m2023-10-09 16:07:42.443[0;39m | [32m INFO[0;39m | [35m63089[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 16:07:42.443[0;39m | [32m INFO[0;39m | [35m63089[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 16:07:42.444[0;39m | [32m INFO[0;39m | [35m63089[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+ [::END::]
+[2m2023-10-09 16:07:42.465[0;39m | [32m INFO[0;39m | [35m63089[0;39m | [2m[nio-8080-exec-1][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m AbstractDynamoDbEnhancedRepository:: getItemWithPartitionKey:: tableName: dev-developerDetails
+ [::END::]
+[2m2023-10-09 16:08:46.472[0;39m | [32m INFO[0;39m | [35m63089[0;39m | [2m[nio-8080-exec-6][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m AbstractDynamoDbEnhancedRepository:: getItemWithPartitionKey:: tableName: dev-developerDetails
+ [::END::]
+[2m2023-10-09 16:08:46.490[0;39m | [32m INFO[0;39m | [35m63089[0;39m | [2m[nc-response-0-1][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m DeveloperRepository:: getData:: data: Developer(employeeId=457)
+ [::END::]
+[2m2023-10-09 16:08:46.490[0;39m | [32m INFO[0;39m | [35m63089[0;39m | [2m[nc-response-0-1][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m DeveloperRepository:: removeData:: data: Developer(employeeId=457)
+ [::END::]
+[2m2023-10-09 16:09:42.766[0;39m | [32m INFO[0;39m | [35m63430[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 63430 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 16:09:42.767[0;39m | [32m INFO[0;39m | [35m63430[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 16:09:43.203[0;39m | [32m INFO[0;39m | [35m63430[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 16:09:43.216[0;39m | [32m INFO[0;39m | [35m63430[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 16:09:43.329[0;39m | [32m INFO[0;39m | [35m63430[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 16:09:43.333[0;39m | [32m INFO[0;39m | [35m63430[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 16:09:43.334[0;39m | [32m INFO[0;39m | [35m63430[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 16:09:43.380[0;39m | [32m INFO[0;39m | [35m63430[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 16:09:43.380[0;39m | [32m INFO[0;39m | [35m63430[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 589 ms
+ [::END::]
+[2m2023-10-09 16:09:43.886[0;39m | [32m INFO[0;39m | [35m63430[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 16:09:43.891[0;39m | [32m INFO[0;39m | [35m63430[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.299 seconds (process running for 1.647)
+ [::END::]
+[2m2023-10-09 16:09:49.819[0;39m | [32m INFO[0;39m | [35m63430[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 16:09:49.820[0;39m | [32m INFO[0;39m | [35m63430[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 16:09:49.820[0;39m | [32m INFO[0;39m | [35m63430[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+ [::END::]
+[2m2023-10-09 16:09:49.840[0;39m | [32m INFO[0;39m | [35m63430[0;39m | [2m[nio-8080-exec-2][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m AbstractDynamoDbEnhancedRepository:: getItemWithPartitionKey:: tableName: dev-developerDetails
+ [::END::]
+[2m2023-10-09 16:10:04.939[0;39m | [32m INFO[0;39m | [35m63430[0;39m | [2m[nio-8080-exec-4][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m AbstractDynamoDbEnhancedRepository:: getItemWithPartitionKey:: tableName: dev-developerDetails
+ [::END::]
+[2m2023-10-09 16:10:52.036[0;39m | [32m INFO[0;39m | [35m63723[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 63723 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 16:10:52.037[0;39m | [32m INFO[0;39m | [35m63723[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 16:10:52.481[0;39m | [32m INFO[0;39m | [35m63723[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 16:10:52.494[0;39m | [32m INFO[0;39m | [35m63723[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 16:10:52.611[0;39m | [32m INFO[0;39m | [35m63723[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 16:10:52.616[0;39m | [32m INFO[0;39m | [35m63723[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 16:10:52.616[0;39m | [32m INFO[0;39m | [35m63723[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 16:10:52.668[0;39m | [32m INFO[0;39m | [35m63723[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 16:10:52.668[0;39m | [32m INFO[0;39m | [35m63723[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 605 ms
+ [::END::]
+[2m2023-10-09 16:10:53.175[0;39m | [32m INFO[0;39m | [35m63723[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 16:10:53.181[0;39m | [32m INFO[0;39m | [35m63723[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.317 seconds (process running for 1.661)
+ [::END::]
+[2m2023-10-09 16:10:54.702[0;39m | [32m INFO[0;39m | [35m63723[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 16:10:54.702[0;39m | [32m INFO[0;39m | [35m63723[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 16:10:54.703[0;39m | [32m INFO[0;39m | [35m63723[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+ [::END::]
+[2m2023-10-09 16:10:54.722[0;39m | [32m INFO[0;39m | [35m63723[0;39m | [2m[nio-8080-exec-1][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m AbstractDynamoDbEnhancedRepository:: getItemWithPartitionKey:: tableName: dev-developerDetails
+ [::END::]
+[2m2023-10-09 16:17:10.237[0;39m | [32m INFO[0;39m | [35m66415[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 66415 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 16:17:10.238[0;39m | [32m INFO[0;39m | [35m66415[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 16:17:10.670[0;39m | [32m INFO[0;39m | [35m66415[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 16:17:10.682[0;39m | [32m INFO[0;39m | [35m66415[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 16:17:10.800[0;39m | [32m INFO[0;39m | [35m66415[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 16:17:10.805[0;39m | [32m INFO[0;39m | [35m66415[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 16:17:10.805[0;39m | [32m INFO[0;39m | [35m66415[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 16:17:10.851[0;39m | [32m INFO[0;39m | [35m66415[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 16:17:10.851[0;39m | [32m INFO[0;39m | [35m66415[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 590 ms
+ [::END::]
+[2m2023-10-09 16:17:11.365[0;39m | [32m INFO[0;39m | [35m66415[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 16:17:11.371[0;39m | [32m INFO[0;39m | [35m66415[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.296 seconds (process running for 1.629)
+ [::END::]
+[2m2023-10-09 16:17:23.682[0;39m | [32m INFO[0;39m | [35m66415[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 16:17:23.682[0;39m | [32m INFO[0;39m | [35m66415[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 16:17:23.683[0;39m | [32m INFO[0;39m | [35m66415[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+ [::END::]
+[2m2023-10-09 16:17:23.711[0;39m | [32m INFO[0;39m | [35m66415[0;39m | [2m[nio-8080-exec-1][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m AbstractDynamoDbEnhancedRepository:: getItemWithPartitionKey:: tableName: dev
+ [::END::]
+[2m2023-10-09 16:20:09.449[0;39m | [32m INFO[0;39m | [35m66833[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 66833 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 16:20:09.451[0;39m | [32m INFO[0;39m | [35m66833[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 16:20:09.881[0;39m | [32m INFO[0;39m | [35m66833[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 16:20:09.893[0;39m | [32m INFO[0;39m | [35m66833[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 16:20:10.006[0;39m | [32m INFO[0;39m | [35m66833[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 16:20:10.013[0;39m | [32m INFO[0;39m | [35m66833[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 16:20:10.014[0;39m | [32m INFO[0;39m | [35m66833[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 16:20:10.063[0;39m | [32m INFO[0;39m | [35m66833[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 16:20:10.063[0;39m | [32m INFO[0;39m | [35m66833[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 587 ms
+ [::END::]
+[2m2023-10-09 16:20:10.564[0;39m | [32m INFO[0;39m | [35m66833[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 16:20:10.570[0;39m | [32m INFO[0;39m | [35m66833[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.289 seconds (process running for 1.627)
+ [::END::]
+[2m2023-10-09 16:20:50.984[0;39m | [32m INFO[0;39m | [35m66833[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 16:20:50.985[0;39m | [32m INFO[0;39m | [35m66833[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 16:20:50.985[0;39m | [32m INFO[0;39m | [35m66833[0;39m | [2m[nio-8080-exec-1][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+ [::END::]
+[2m2023-10-09 16:20:51.051[0;39m | [32m INFO[0;39m | [35m66833[0;39m | [2m[nio-8080-exec-1][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m AbstractDynamoDbEnhancedRepository:: save:: tableName: dev
+ [::END::]
+[2m2023-10-09 16:21:14.057[0;39m | [32m INFO[0;39m | [35m67126[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 67126 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 16:21:14.058[0;39m | [32m INFO[0;39m | [35m67126[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 16:21:14.495[0;39m | [32m INFO[0;39m | [35m67126[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 16:21:14.508[0;39m | [32m INFO[0;39m | [35m67126[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 16:21:14.633[0;39m | [32m INFO[0;39m | [35m67126[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 16:21:14.638[0;39m | [32m INFO[0;39m | [35m67126[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 16:21:14.638[0;39m | [32m INFO[0;39m | [35m67126[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 16:21:14.689[0;39m | [32m INFO[0;39m | [35m67126[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 16:21:14.689[0;39m | [32m INFO[0;39m | [35m67126[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 605 ms
+ [::END::]
+[2m2023-10-09 16:21:15.196[0;39m | [32m INFO[0;39m | [35m67126[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 16:21:15.202[0;39m | [32m INFO[0;39m | [35m67126[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.312 seconds (process running for 1.659)
+ [::END::]
+[2m2023-10-09 16:31:19.402[0;39m | [32m INFO[0;39m | [35m68134[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 68134 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 16:31:19.404[0;39m | [32m INFO[0;39m | [35m68134[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 16:31:19.832[0;39m | [32m INFO[0;39m | [35m68134[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 16:31:19.844[0;39m | [32m INFO[0;39m | [35m68134[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 16:31:19.956[0;39m | [32m INFO[0;39m | [35m68134[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 16:31:19.962[0;39m | [32m INFO[0;39m | [35m68134[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 16:31:19.963[0;39m | [32m INFO[0;39m | [35m68134[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 16:31:20.011[0;39m | [32m INFO[0;39m | [35m68134[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 16:31:20.012[0;39m | [32m INFO[0;39m | [35m68134[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 583 ms
+ [::END::]
+[2m2023-10-09 16:31:20.520[0;39m | [32m INFO[0;39m | [35m68134[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 16:31:20.525[0;39m | [32m INFO[0;39m | [35m68134[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.288 seconds (process running for 1.628)
+ [::END::]
+[2m2023-10-09 16:31:28.889[0;39m | [32m INFO[0;39m | [35m68134[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 16:31:28.889[0;39m | [32m INFO[0;39m | [35m68134[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+ [::END::]
+[2m2023-10-09 16:31:28.890[0;39m | [32m INFO[0;39m | [35m68134[0;39m | [2m[nio-8080-exec-2][0;39m | [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+ [::END::]
+[2m2023-10-09 16:31:28.959[0;39m | [32m INFO[0;39m | [35m68134[0;39m | [2m[nio-8080-exec-2][0;39m | [36mc.e.k.repository.DeveloperRepository    [0;39m [2m:[0;39m AbstractDynamoDbEnhancedRepository:: save:: tableName: dev-developerDetails
+ [::END::]
+[2m2023-10-09 16:32:11.578[0;39m | [32m INFO[0;39m | [35m68407[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Starting KotlinApplicationKt using Java 17.0.8 with PID 68407 (/home/samiha_admin/Documents/kotlin/build/classes/kotlin/main started by samiha_admin in /home/samiha_admin/Documents/kotlin)
+ [::END::]
+[2m2023-10-09 16:32:11.579[0;39m | [32m INFO[0;39m | [35m68407[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m The following 1 profile is active: "dev"
+ [::END::]
+[2m2023-10-09 16:32:12.024[0;39m | [32m INFO[0;39m | [35m68407[0;39m | [2m[           main][0;39m | [36mtrationDelegate$BeanPostProcessorChecker[0;39m [2m:[0;39m Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ [::END::]
+[2m2023-10-09 16:32:12.041[0;39m | [32m INFO[0;39m | [35m68407[0;39m | [2m[           main][0;39m | [36m.w.s.a.s.AnnotationActionEndpointMapping[0;39m [2m:[0;39m Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+ [::END::]
+[2m2023-10-09 16:32:12.154[0;39m | [32m INFO[0;39m | [35m68407[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+ [::END::]
+[2m2023-10-09 16:32:12.158[0;39m | [32m INFO[0;39m | [35m68407[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+ [::END::]
+[2m2023-10-09 16:32:12.159[0;39m | [32m INFO[0;39m | [35m68407[0;39m | [2m[           main][0;39m | [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.11]
+ [::END::]
+[2m2023-10-09 16:32:12.207[0;39m | [32m INFO[0;39m | [35m68407[0;39m | [2m[           main][0;39m | [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+ [::END::]
+[2m2023-10-09 16:32:12.207[0;39m | [32m INFO[0;39m | [35m68407[0;39m | [2m[           main][0;39m | [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 601 ms
+ [::END::]
+[2m2023-10-09 16:32:12.713[0;39m | [32m INFO[0;39m | [35m68407[0;39m | [2m[           main][0;39m | [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+ [::END::]
+[2m2023-10-09 16:32:12.718[0;39m | [32m INFO[0;39m | [35m68407[0;39m | [2m[           main][0;39m | [36mcom.example.kotlin.KotlinApplicationKt  [0;39m [2m:[0;39m Started KotlinApplicationKt in 1.316 seconds (process running for 1.662)
  [::END::]

@@ -9,12 +9,16 @@ import reactor.core.publisher.Mono
 @Service
 class DeveloperServiceImpl(val developerRepository: DeveloperRepository): DeveloperService {
 
-    override fun addDeveloper(developer: Developer): Mono<Unit> {
+    override fun addDeveloper(developer: Developer): Mono<Boolean> {
         return developerRepository.saveData(developer)
     }
 
     override fun getDeveloper(employeeId: String): Mono<Developer> {
         return developerRepository.getData(employeeId)
+    }
+
+    override fun removeDeveloper(employeeId: String): Mono<Boolean> {
+        return developerRepository.removeData(employeeId)
     }
 
 }

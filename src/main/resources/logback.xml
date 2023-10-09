@@ -4,7 +4,7 @@
     <property resource="application.properties" />
     <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
 
-    <property scope="context" name="APP_NAME" source="spring.application.name" value="kotlin-demo"/>
+    <property scope="context" name="APP_NAME" source="application.name" value="kotlin-demo"/>
     <property scope="context" name="LOG_PATH" source="logging.path" value="logs"/>
 
     <property name="LOG_PATTERN"

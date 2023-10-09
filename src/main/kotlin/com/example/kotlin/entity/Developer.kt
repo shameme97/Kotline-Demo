@@ -7,6 +7,7 @@ import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbParti
 @DynamoDbBean
 data class Developer(
         @get:DynamoDbPartitionKey var employeeId: String? = null,
-        var team: String? = null,
-        var taskList: List<String>? = null
-)
+){
+    lateinit var team: String
+    var taskList: List<String> = listOf()
+}
